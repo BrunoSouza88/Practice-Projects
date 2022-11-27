@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<title>Stopwatch Project</title>
+
+<body>
+  <h1>Stopwatch</h1>
+
+  <audio id="sound" src="/Practice-Projects/media/mixkit-digital-clock-digital-alarm-buzzer-992.wav"></audio>
+
+  <div class="container">
+    <label for="minutes">
+      <h2>Minutes</h2>
+      <select name="minutes" id="minutes"></select>
+    </label>
+
+    <label for="seconds">
+      <h2>Seconds</h2>
+      <select name="Seconds" id="seconds"></select>
+    </label>
+    <br><br>
+    <button id="start">Start</button>
+    <button id="stop">Stop!</button>
+
+
+    <div id="display">
+      <h3></h3>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
