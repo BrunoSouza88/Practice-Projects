@@ -5,6 +5,7 @@ This repository is an ongoing task. The intent is to display the growth of my le
 
 What was lerning so far:
 
+- [ ] : Git/GitHub
 - [ ] : HTML5
 - [ ] : CSS
 - [ ] : JavaScript
